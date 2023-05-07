@@ -1,0 +1,10 @@
+creare un'applicazione Spring Bootusing Spring Initializrche abbia le seguenti dipendenze:
+- Lombok
+- Spring Boot DevTools
+- Spring Web
+
+definire un application.yaml file di configurazione in cui si imposta:
+- una proprietà chiamata authCode con il valore: xyz458
+- una proprietà chiamata devName con il tuo nome come valore
+
+usa Spring Boot nella porta 4500, restituisce un messaggio di benvenuto che mostra il metodo devName e authCode usando il metodo getProperty
